@@ -1,2 +1,2 @@
 # trilha-java-basico
-Repositótio para armzenas conteúdos de apredizados básicos de Java.
+Repositótio para armazenar conteúdos de apredizados básicos de Java.
