@@ -8,7 +8,7 @@ public class TiposVariaveis {
         System.out.print (valorCurto2 + "\n");
 
         int numero = 10;
-
+        
         numero = 50; // alterando o valor de uma variável.
         System.out.print (numero + "\n");
         
