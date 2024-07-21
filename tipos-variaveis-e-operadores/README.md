@@ -1,18 +1,24 @@
-## Getting Started
+##  Tipos Primitivos
+### Os oito tipos primitivos em Java são:
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+int, byte, short, long, float, double, boolean e char 
+esses tipos não são considerados objetos e portanto representam valores brutos. Eles são armazenados diretamente na pilha de memória. (Memory stack)
 
-## Folder Structure
+Tabela de Tipos Primitivos e seus valores:
 
-The workspace contains two folders by default, where:
+| Tipo | Memória | ValorMínimo | Valor Máximo |
+|-----:|---------|-------------|--------------|
+| byte | 1 byte |  -128  |  127  |
+| short | 2 byte | -32.768 | 32.767 |
+| int | 4 bytes| -2.147.483.648 | 2.147.483.647|
+| long | 8 bytes | -9.223.372.036.854.775.808 |9.223.372.036.854.775.807|
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Os tipos primitivos, que podem conter partes fracionárias podem ser representados por dois tipos:
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+| Tipo |Memória | Mínimo | Máximo | Precisão |
+|------|--------|--------|--------|----------|
+| float | 4 bytes | -3,4028E + 38 | 3,4028E + 38 | 6 – 7 dígitos |
+| double | 8 bytes | -1,7976E + 308 | 1,7976E + 308 | 15 dígitos |
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+##
